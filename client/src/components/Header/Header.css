@@ -1,0 +1,5 @@
+.navbar-container{
+    background-color: transparent;
+    font-family: var(--heading-font);
+    color: var(--text-color);
+}

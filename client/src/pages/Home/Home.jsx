@@ -1,13 +1,13 @@
 import React from 'react'
+import Header from './../../components/Header/Header.jsx'
 
 function Home() {
   return (
-    <div>
-        <h1>
-            Home 
-        </h1>
-        </div>
+   <>
+     <Header/>
+     
+   </>
   )
 }
 
-export default Home
+export default Home ;
