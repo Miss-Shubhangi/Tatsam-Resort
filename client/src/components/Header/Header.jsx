@@ -10,38 +10,38 @@ function Header() {
   };
   return (
 
-<div className='w-full min-h-[50px] items-center absolute z-10 flex  md:flex-row justify-between '>
+<div className='w-full min-h-[50px] items-center absolute z-10 flex  md:flex-row justify-between text-white navbar-container pt-3'>
 
 <div >
-  <h3>Tatsam Resort </h3>
+  <h3 className='pl-4 text-3xl'>Tatsam Resort </h3>
 </div>
-  <ul className=' gap-3  hidden sm:flex px-4'>
+  <ul className=' gap-4  hidden sm:flex px-4 text-lg'>
     <li>
-      <Link  to='/'> 
+      <Link  to='/' className='hover:text-[#875426] transition-colors duration-300 hover:underline decoration-white decoration-3 underline-offset-8 '> 
         HOME
       </Link>
       </li>
 
      <li>
-      <Link  to='/about'> 
+      <Link  to='/about' className='hover:text-[#875426] transition-colors duration-300 hover:underline decoration-white decoration-3 underline-offset-8 '> 
         ABOUT
       </Link>
       </li>
     
      <li>
-      <Link  to='/contact'> 
+      <Link  to='/contact' className='hover:text-[#875426] transition-colors duration-300 hover:underline decoration-white decoration-3 underline-offset-8 '> 
         CONTACT
       </Link>
       </li>
 
      <li>
-      <Link  to='/gallery'> 
+      <Link  to='/gallery' className='hover:text-[#875426] transition-colors duration-300 hover:underline decoration-white decoration-3 underline-offset-8 '> 
         GALLERY
       </Link>
       </li>
 
      <li>
-      <Link  to='/login'> 
+      <Link  to='/login' className='hover:text-[#875426] transition-colors duration-300 hover:underline decoration-white decoration-3 underline-offset-8 '> 
         LOGIN/REGISTER
       </Link>
       </li>
@@ -58,32 +58,32 @@ function Header() {
             : "absolute top-0 h-screen left-[-100%] ease-in duration-500"
         }
       >
-        <ul className="h-full w-full text-center pt-12">
-           <li>
-      <Link  to='/'> 
+        <ul className="h-full w-full text-left pt-5 ">
+           <li className='pb-3'>
+      <Link  to='/' > 
         HOME
       </Link>
       </li>
 
-     <li>
+     <li className='pb-3'>
       <Link  to='/about'> 
         ABOUT
       </Link>
       </li>
     
-     <li>
+     <li className='pb-3'>
       <Link  to='/contact'> 
         CONTACT
       </Link>
       </li>
 
-     <li>
+     <li className='pb-3'>
       <Link  to='/gallery'> 
         GALLERY
       </Link>
       </li>
 
-     <li>
+     <li className='pb-3'>
       <Link  to='/login'> 
         LOGIN/REGISTER
       </Link>

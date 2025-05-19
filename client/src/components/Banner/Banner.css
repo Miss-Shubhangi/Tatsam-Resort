@@ -10,14 +10,14 @@
 }
 .tagline{
     font-family: var(--heading-font);
-    font-size: 40px;
+   
 }
 .sub-tagline{
     font-family: var(--subheading-font);
-    font-family: 35px;
+   
 }
 
-@media screen and (max-width: 576px){
+/* @media screen and (max-width: 576px){
    .tagline{
       font-size: 20px;
    }
@@ -34,4 +34,4 @@
        font-family: 0px;
    }
 }
-
+ */
