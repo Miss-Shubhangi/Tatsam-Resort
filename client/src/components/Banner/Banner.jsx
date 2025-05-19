@@ -1,18 +1,24 @@
 import React from 'react'
 import './Banner.css'
-import Banner from './../../assets/Imgs/banner.jpg';
+import Data from './../../assets/data.js'
+import Header from '../Header/Header.jsx';
+import Button from './../Buttons/Button.jsx'
 
 function Banner() {
+    const {BannerImg , tagline , aboutUsTagline }= Data.resort;
   return (
+    
     <>
-    <div class="card text-bg-dark">
-    <img src="" class="card-img" alt="..."/>
-       <div class="card-img-overlay">
-         <h5 class="card-title">Card title</h5>
-         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-         <p class="card-text"><small>Last updated 3 mins ago</small></p>
-         </div>
-    </div>
+    <div class="position-relative banner-section">
+    <img src={BannerImg} class="img-fluid banner-img w-100" alt="Responsive Image"/>
+  
+  <div class="position-absolute top-50 start-50 top-md-0 start-md-0 translate-middle text-center">
+    <h2 class="tagline ">{tagline}</h2>
+    <p className='sub-tagline'>{aboutUsTagline}</p>
+    <Button/>
+  </div>
+  </div>
+
     </>
   )
 }

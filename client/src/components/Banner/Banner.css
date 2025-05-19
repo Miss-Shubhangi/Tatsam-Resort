@@ -1,0 +1,37 @@
+.banner-section{
+    color:white;
+    margin: 0px ;
+    padding: 0px;
+    border-radius: 0%;
+}
+.banner-img{
+    max-height: 100vh;
+  
+}
+.tagline{
+    font-family: var(--heading-font);
+    font-size: 40px;
+}
+.sub-tagline{
+    font-family: var(--subheading-font);
+    font-family: 35px;
+}
+
+@media screen and (max-width: 576px){
+   .tagline{
+      font-size: 20px;
+   }
+   .sub-tagline{ 
+       font-family: 15px;
+   }
+}
+
+@media screen and  (max-width: 768px) {
+   .tagline{
+      font-size: 15px;
+   }
+   .sub-tagline{ 
+       font-family: 0px;
+   }
+}
+

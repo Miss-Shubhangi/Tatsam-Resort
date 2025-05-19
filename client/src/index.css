@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Merienda:wght@300..900&display=swap');
-
+@import "tailwindcss";
 :root{
   --background-color:#f6ebdf;
   --heading-color:#875426;
@@ -12,4 +12,7 @@
 }
 root{
   background-color: var(--background-color);
+  font-family: var(--text-font);
+  margin:0px 0px ;
+  padding: 0px 0px;
 }

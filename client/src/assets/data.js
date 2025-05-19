@@ -1,8 +1,12 @@
+import BannerImg from './Imgs/banner1.jpg';
+
 const data={
   "resort": {
+
     "name": "Tatsam Resort",
     "tagline": "Elegance in Every Moment, Peace in Every Stay",
     "aboutUsTagline": "Experience Tranquility the Tatsam Way",
+    "BannerImg":BannerImg,
     "aboutUs": "Tatsam Resort is a luxury getaway nestled in nature, offering guests a perfect blend of elegance, comfort, and serenity. Designed to help you unwind and reconnect with yourself, Tatsam combines traditional charm with modern hospitality to deliver an unforgettable experience. Whether you’re looking for peace, adventure, or celebration, Tatsam welcomes you with open arms.",
     "contact": {
       "phone": "+91-9876543210",
