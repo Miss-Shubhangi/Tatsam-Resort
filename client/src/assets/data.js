@@ -1,4 +1,5 @@
 import BannerImg from './Imgs/banner1.jpg';
+import DeluxRoom from './Imgs/delux-rooms1.jpg'
 
 const data={
   "resort": {
@@ -72,22 +73,79 @@ const data={
       }
     ],
     "rooms": [
-      {
-        "roomType": "Deluxe Room",
-        "description": "Comfortable and cozy with garden views.",
-        "features": ["Queen Bed", "Private Bathroom", "Wi-Fi", "TV", "Balcony View"]
-      },
-      {
-        "roomType": "Premium Cottage",
-        "description": "Spacious stay with wooden interiors and mountain views.",
-        "features": ["King Bed", "Bathtub", "Fireplace", "Balcony", "Minibar"]
-      },
-      {
-        "roomType": "Luxury Tent",
-        "description": "For a rustic yet luxurious camping experience.",
-        "features": ["Double Bed", "Attached Bathroom", "Nature View", "Portable Heater", "Outdoor Seating"]
-      }
-    ],
+  {
+    id: 1,
+    title: "Superior Room",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    size: "30M2",
+    maxPeople: 1,
+    price: "$115",
+    image: DeluxRoom
+  },
+  {
+    id: 2,
+    title: "Signature Room",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    size: "70M2",
+    maxPeople: 2,
+    price: "$220",
+    image: DeluxRoom
+  },
+  {
+    id: 3,
+    title: "Deluxe Room",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    size: "50M2",
+    maxPeople: 3,
+    price: "$265",
+    image: DeluxRoom
+  },
+  {
+    id: 4,
+    title: "Family Suite",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    size: "85M2",
+    maxPeople: 4,
+    price: "$310",
+    image: DeluxRoom
+  },
+  {
+    id: 5,
+    title: "Penthouse",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    size: "120M2",
+    maxPeople: 5,
+    price: "$420",
+    image:DeluxRoom
+  },
+  {
+    id: 6,
+    title: "Executive Room",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    size: "60M2",
+    maxPeople: 2,
+    price: "$180",
+    image:DeluxRoom
+  },
+  {
+    id: 7,
+    title: "Junior Suite",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    size: "55M2",
+    maxPeople: 2,
+    price: "$200",
+    image:DeluxRoom
+  },
+  {
+    id: 8,
+    title: "Presidential Suite",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    size: "150M2",
+    maxPeople: 6,
+    price: "$550",
+    image:DeluxRoom
+  }
+],
     "amenities": [
       "Free Wi-Fi",
       "Swimming Pool",

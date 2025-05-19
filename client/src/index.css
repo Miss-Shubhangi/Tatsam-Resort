@@ -7,8 +7,8 @@
   --primary-color:#875426;
   --secondary-color:#3B7A57;
   --text-color:#2E2E2E;
-  --heading-font: "Bodoni Moda", serif;
-  --subheading-font: "Merienda", cursive;
+  --heading-font: "Merienda", cursive;
+  --subheading-font: "Bodoni Moda", serif;
   --text-font: "Lora", serif;
 
 }
@@ -17,4 +17,16 @@ root{
   font-family: var(--text-font);
   margin:0px 0px ;
   padding: 0px 0px;
+}
+.heading{
+   color: var(--heading-color); 
+   font-family: var(--heading-font);
+}
+.subheading{
+    color: var(--subheading-color);
+    font-family: var(--subheading-font);
+}
+.text-content{
+  color:var(--text-color);
+  font-family: var(--text-font);
 }
